@@ -1,0 +1,30 @@
+:root{
+    --linha: 1px solid rgb(124, 124, 124);
+}
+
+.head{
+    background-color: rgb(116, 185, 88);
+    border: var(--linha);
+}
+.headItem{
+    padding: 1rem;
+    border: none;
+    border: var(--linha);
+}
+table{
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+td{
+    border: var(--linha);
+    padding: .5rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 1rem;
+    text-align: center;
+}
